@@ -12,7 +12,7 @@ RUN set -ex \
 #
     && dpkg-query -f '${binary:Package}\n' -W | sort > base_packages \
     && DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
-        gcc libc6-dev make curl ca-certificates \
+        gcc libc6-dev make curl ca-certificates vim \
     && curl -OL https://github.com/troglobit/mtools/releases/download/v2.3/mtools-2.3.tar.gz \
     && tar xfz mtools-2.3.tar.gz \
     && cd mtools-2.3 \
