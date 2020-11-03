@@ -1,17 +1,33 @@
-# Firefox-GNS3
+
+
+# Intro
 This is a fork of the original "GNS3 webterm" docker
-This version is completely outdated with Debian 8 and Firefox 68.9
+The original version is completely outdated with Debian 8 and Firefox 68.9
 
 So I decidate to create another repository, maintained by me,
 with the latest package and the latest version of Debian
 
 
-## HOW TO BUILD
-```sh
-sudo docker build -t firefox-deb10:78.4 .
-```
+__I think improve this Dockerfile, because actually it download a lot of layer...__
+__For any question/suggestion/improvement, don't hesitate to create issue.__
 
-## HOW TO USE IN GNS3
-download the `webterm-updated.gns3a` and import that into your GNS3
+# Installation
+### Easy install :
+Download the file into [gns3a/webterm-updated.gns3a](./gns3a/webterm-updated.gns3a)
+
+Open GNS3 --> New Template --> Import an appliance file (.gns3a extension) --> choose a server --> Finish
+
+don't forgot to configure static/dhcp 
+
+
+### Manual install :
+Import the [docker/Dockerfile](./docker/Dockerfile) into the GNS3 Server
+
+and follow the GNS3 manual: https://docs.gns3.com/docs/emulators/create-a-docker-container-for-gns3/
 
 don't forgot to configure static/dhcp into the menu
+
+
+# Screenshot
+Fortigate 6.x problem is now solved ! :) 
+![screenshot-VNC](https://user-images.githubusercontent.com/10796546/97975437-6d0afa00-1dc9-11eb-8f5a-a17e3a315412.png)
