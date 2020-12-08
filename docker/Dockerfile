@@ -3,7 +3,7 @@
 # PART 1 #
 ##########
 
-FROM debian:buster
+FROM debian:buster-slim
 
 MAINTAINER borrougagnou 
 
