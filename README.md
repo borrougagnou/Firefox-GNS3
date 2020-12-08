@@ -13,15 +13,15 @@ __For any question/suggestion/improvement, don't hesitate to create issue.__
 
 # Installation
 ### Easy install :
-Download the file into [gns3a/webterm-updated.gns3a](./gns3a/webterm-updated.gns3a)
+Download the file [webterm-updated.gns3a](https://github.com/borrougagnou/Firefox-GNS3/releases/latest/download/webterm-updated.gns3a)
 
 Open GNS3 --> New Template --> Import an appliance file (.gns3a extension) --> choose a server --> Finish
 
-don't forgot to configure static/dhcp 
+don't forgot to configure static/dhcp
 
 
 ### Manual install :
-Import the [docker/Dockerfile](./docker/Dockerfile) into the GNS3 Server
+Import the [Dockerfile](https://github.com/borrougagnou/Firefox-GNS3/releases/latest/download/Dockerfile) into the GNS3 VM Server
 
 and follow the GNS3 manual: https://docs.gns3.com/docs/emulators/create-a-docker-container-for-gns3/
 
