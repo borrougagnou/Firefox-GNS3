@@ -1,5 +1,3 @@
-
-
 # Intro
 This is a fork of the original "GNS3 webterm" docker
 The original version is completely outdated with Debian 8 and Firefox 68.9
@@ -7,6 +5,11 @@ The original version is completely outdated with Debian 8 and Firefox 68.9
 So I decidate to create another repository, maintained by me,
 with the latest package and the latest version of Debian
 
+## changelog:
+#### 20220110:
+- create tag `firefox-gns3:buster` and `firefox-gns3:bullseye`
+- [latest] update from debian buster to debian bullseye (Firefox 78 esr --> Firefox 91 esr)
+- [buster] Firefox 78.4.0esr --> Firefox 78.15.0esr
 
 __I think improve this Dockerfile, because actually it download a lot of layer...__
 __For any question/suggestion/improvement, don't hesitate to create issue.__
