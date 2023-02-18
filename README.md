@@ -6,6 +6,11 @@ So I decidate to create another repository, maintained by me,
 with the latest package and the latest version of Debian
 
 ## changelog:
+#### 20230218
+- [bullseye/latest] update to debian 11.6 with Firefox 102.8.0esr
+- [buster] update to debian 10.13 with Firefox 102.8.0esr
+- [stretch] added support for debian stretch 9.13 with Firefox 91.11.0
+
 #### 20220110:
 - create tag `firefox-gns3:buster` and `firefox-gns3:bullseye`
 - [latest] update from debian buster to debian bullseye (Firefox 78 esr --> Firefox 91 esr)
