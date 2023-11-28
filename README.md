@@ -18,6 +18,7 @@ with the latest package and the latest version of Debian
 - create tag `firefox-gns3:bookworm`
 - added iputils-ping package in all image.
 - bump dumb-init v1.2.2 --> v1.2.5
+- created multiple "gns3a" (one for each debian version)
 - [latest] update from debian bullseye to debian bookworm
 - [bookworm/latest] Debian 12.2 | Firefox 115.5.0esr
 - [bullseye] Debian 11.6 to 11.8 | Firefox 102.8.0esr to 115.5.0esr
@@ -41,7 +42,7 @@ __For any question/suggestion/improvement, don't hesitate to create issue.__
 
 # Installation
 ### Easy install :
-Download the file [webterm-updated.gns3a](https://github.com/borrougagnou/Firefox-GNS3/releases/latest/download/webterm-updated.gns3a)
+Download the file [webterm-latest.gns3a](https://github.com/borrougagnou/Firefox-GNS3/releases/latest/download/webterm-latest.gns3a)
 
 Open GNS3 --> New Template --> Import an appliance file (.gns3a extension) --> choose a server --> Finish
 

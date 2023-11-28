@@ -1,5 +1,5 @@
 {
-    "name": "webterm-updated",
+    "name": "webterm-bookworm",
     "category": "guest",
     "description": "updated version of webterm with latest package. It's debian based networking toolbox.\nIt contains the firefox web browser plus the following utilities: net-tools, iproute2, ping, traceroute, curl, host, iperf3, mtr, socat, ssh client, tcpdump, ab(apache benchmark) and the multicast testing tools msend/mreceive.",
     "vendor_name": "webterm",
@@ -13,7 +13,7 @@
     "symbol": "firefox.svg",
     "docker": {
         "adapters": 1,
-        "image": "borrougagnou/firefox-gns3:latest",
+        "image": "borrougagnou/firefox-gns3:bookworm",
         "console_type": "vnc"
     }
 }
