@@ -5,15 +5,20 @@ The original version is completely outdated with Debian 8 and Firefox 68.9
 So I decidate to create another repository, maintained by me,
 with the latest package and the latest version of Debian
 
-|      Tag       |  Debian Version  |   Firefox Version   |
-| :---           | :---             | :---                |
-| `latest`       | 12.2  (Bookworm) | Firefox  115.5.0esr |
-| `bookworm`     | 12.2  (Bookworm) | Firefox  115.5.0esr |
-| `bullseye`     | 11.8  (Bullseye) | Firefox  115.5.0esr |
-| `buster`       | 10.13 (Buster)   | Firefox  115.5.0esr |
-| `stretch`      | 9.13  (Stretch)  | Firefox  91.11.0esr |
+|      Tag       |  Debian Version  |    Firefox  Version    |
+| :---           | :---             | :---                   |
+| `latest`       | 12.2  (Bookworm) | Firefox  115.5.0esr    |
+| `bookworm`     | 12.2  (Bookworm) | Firefox  115.5.0esr    |
+| `bullseye`     | 11.8  (Bullseye) | Firefox  115.5.0esr    |
+| `buster`       | 10.13 (Buster)   | Firefox  115.5.0esr    |
+| `stretch`      | 9.13  (Stretch)  | Firefox  91.11.0esr    |
+| `experimental` | 12.2  (Bookworm) | Firefox  Nightly 122.0 |
 
 ## changelog:
+#### 20231129
+- create tag `experimental`
+- [experimental] Implement Firefox Nightly 122.0a0 from Mozilla[ ¹](https://blog.nightly.mozilla.org/2023/10/30/introducing-mozillas-firefox-nightly-deb-packages-for-debian-based-linux-distributions/) repository
+
 #### 20231128
 - create tag `firefox-gns3:bookworm`
 - added iputils-ping package in all image.
@@ -24,8 +29,7 @@ with the latest package and the latest version of Debian
 - [bullseye] Debian 11.6 to 11.8 | Firefox 102.8.0esr to 115.5.0esr
 - [buster] Firefox 102.8.0esr to 115.5.0esr
 - [stretch] I use now archive.debian.org[ ¹](https://lists.debian.org/debian-devel-announce/2023/03/msg00006.html)
-- Docker `MAINTAINER`[ ²](https://docs.docker.com/engine/reference/builder/#maintainer-deprecated) is deprecated, `LABEL` is used instead.
-
+- Docker `MAINTAINER`[ ³](https://docs.docker.com/engine/reference/builder/#maintainer-deprecated) is deprecated, `LABEL` is used instead.
 
 #### 20230218
 - [bullseye/latest] update to debian 11.6 with Firefox 102.8.0esr
