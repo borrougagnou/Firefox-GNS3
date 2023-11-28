@@ -5,7 +5,22 @@ The original version is completely outdated with Debian 8 and Firefox 68.9
 So I decidate to create another repository, maintained by me,
 with the latest package and the latest version of Debian
 
+|      Tag       |  Debian Version  |   Firefox Version   |
+| :---           | :---             | :---                |
+| `latest`       | 12.2  (Bookworm) | Firefox  115.5.0esr |
+| `bookworm`     | 12.2  (Bookworm) | Firefox  115.5.0esr |
+| `bullseye`     | 11.8  (Bullseye) | Firefox  115.5.0esr |
+| `buster`       | 10.13 (Buster)   | Firefox  115.5.0esr |
+| `stretch`      | 9.13  (Stretch)  | Firefox  91.11.0esr |
+
 ## changelog:
+#### 20231128
+- create tag `firefox-gns3:bookworm`
+- [latest] update from debian bullseye to debian bookworm
+- [bookworm/latest] Debian 12.2 | Firefox 115.5.0esr
+- [bullseye] Debian 11.6 to 11.8 | Firefox 102.8.0esr to 115.5.0esr
+- [buster] Firefox 102.8.0esr to 115.5.0esr
+
 #### 20230218
 - [bullseye/latest] update to debian 11.6 with Firefox 102.8.0esr
 - [buster] update to debian 10.13 with Firefox 102.8.0esr
