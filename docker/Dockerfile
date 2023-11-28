@@ -3,7 +3,7 @@
 # PART 1 #
 ##########
 
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
 MAINTAINER borrougagnou 
 
