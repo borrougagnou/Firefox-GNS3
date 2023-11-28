@@ -8,7 +8,7 @@
     "registry_version": 3,
     "status": "stable",
     "maintainer": "borrougagnou",
-    "maintainer_email": "check_my_github@borrougagnou.fr",
+    "maintainer_email": "borrougagnou@check_my_github.com",
     "usage": "The /root directory is persistent.",
     "symbol": "firefox.svg",
     "docker": {

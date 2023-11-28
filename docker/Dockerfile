@@ -5,7 +5,9 @@
 
 FROM debian:bookworm-slim
 
-MAINTAINER borrougagnou 
+LABEL org.opencontainers.image.authors="borrougagnou" \
+      org.opencontainers.image.source="https://github.com/borrougagnou/Firefox-GNS3" \
+      org.opencontainers.image.description="webterm, but updated"
 
 RUN set -ex \
     && apt-get update \
