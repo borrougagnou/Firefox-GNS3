@@ -16,6 +16,8 @@ with the latest package and the latest version of Debian
 ## changelog:
 #### 20231128
 - create tag `firefox-gns3:bookworm`
+- added iputils-ping package in all image.
+- bump dumb-init v1.2.2 --> v1.2.5
 - [latest] update from debian bullseye to debian bookworm
 - [bookworm/latest] Debian 12.2 | Firefox 115.5.0esr
 - [bullseye] Debian 11.6 to 11.8 | Firefox 102.8.0esr to 115.5.0esr
