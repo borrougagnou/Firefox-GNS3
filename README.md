@@ -20,6 +20,7 @@ with the latest package and the latest version of Debian
 - [bookworm/latest] Debian 12.2 | Firefox 115.5.0esr
 - [bullseye] Debian 11.6 to 11.8 | Firefox 102.8.0esr to 115.5.0esr
 - [buster] Firefox 102.8.0esr to 115.5.0esr
+- [stretch] I use now archive.debian.org[¹](https://lists.debian.org/debian-devel-announce/2023/03/msg00006.html)
 
 #### 20230218
 - [bullseye/latest] update to debian 11.6 with Firefox 102.8.0esr
