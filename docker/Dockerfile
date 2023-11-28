@@ -30,7 +30,7 @@ RUN set -ex \
 # install remaining tools
 #
     && DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
-        net-tools tcpdump telnet traceroute curl iperf3 knot-host openssh-client mtr-tiny socat nano vim-tiny vim \
+        net-tools iputils-ping tcpdump telnet traceroute curl iperf3 knot-host openssh-client mtr-tiny socat nano vim-tiny vim \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -42,7 +42,7 @@ RUN set -ex \
 
 
 # minimal init, see https://github.com/Yelp/dumb-init
-ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64 /usr/local/sbin/dumb-init
+ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.5/dumb-init_1.2.5_x86_64 /usr/local/sbin/dumb-init
 
 RUN set -ex \
     && chmod 755 /usr/local/sbin/dumb-init \
