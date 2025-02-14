@@ -2,19 +2,26 @@
 This is a fork of the original "GNS3 webterm" docker
 The original version is completely outdated with Debian 8 and Firefox 68.9
 
-So I decidate to create another repository, maintained by me,
+So I choose to do another repository, maintained by me,
 with the latest package and the latest version of Debian
 
 |      Tag       |  Debian Version  |    Firefox  Version    |
 | :---           | :---             | :---                   |
-| `latest`       | 12.2  (Bookworm) | Firefox  115.5.0esr    |
-| `bookworm`     | 12.2  (Bookworm) | Firefox  115.5.0esr    |
-| `bullseye`     | 11.8  (Bullseye) | Firefox  115.5.0esr    |
-| `buster`       | 10.13 (Buster)   | Firefox  115.5.0esr    |
+| `latest`       | 12.9  (Bookworm) | Firefox  128.7.0esr    |
+| `bookworm`     | 12.9  (Bookworm) | Firefox  128.7.0esr    |
+| `bullseye`     | 11.11 (Bullseye) | Firefox  128.7.0esr    |
+| `buster`       | 10.13 (Buster)   | Firefox  115.12.0esr   |
 | `stretch`      | 9.13  (Stretch)  | Firefox  91.11.0esr    |
-| `experimental` | 12.2  (Bookworm) | Firefox  Nightly 122.0 |
+| `experimental` | 12.9  (Bookworm) | Firefox  Nightly 137.0 |
 
 ## changelog:
+#### 20250214
+- Update image and Firefox version
+- [bookworm/latest] Debian 12.2 to 12.9 | Firefox 128.7.0esr
+- [bullseye] Debian 11.8 to 11.11 | Firefox 115.5.0esr to 128.7.0esr
+- [buster] Firefox 115.5.0esr to 115.12.0esr
+- [experimental] Debian 12.2 to 12.9 | Firefox Nightly 122.0a0 to 137.0a1
+
 #### 20231129
 - create tag `experimental`
 - [experimental] Implement Firefox Nightly 122.0a0 from Mozilla[ ¹](https://blog.nightly.mozilla.org/2023/10/30/introducing-mozillas-firefox-nightly-deb-packages-for-debian-based-linux-distributions/) repository
@@ -36,10 +43,14 @@ with the latest package and the latest version of Debian
 - [buster] update to debian 10.13 with Firefox 102.8.0esr
 - [stretch] added support for debian stretch 9.13 with Firefox 91.11.0
 
-#### 20220110:
+#### 20220110
 - create tag `firefox-gns3:buster` and `firefox-gns3:bullseye`
 - [latest] update from debian buster to debian bullseye (Firefox 78 esr --> Firefox 91 esr)
 - [buster] Firefox 78.4.0esr --> Firefox 78.15.0esr
+
+#### future changelog not yet implemented
+- [buster] I use now archive.debian.org[ ¹](https://lists.debian.org/debian-devel-announce/2024/03/msg00003.html)
+
 
 __I think improve this Dockerfile, because actually it download a lot of layer...__
 __For any question/suggestion/improvement, don't hesitate to create issue.__
